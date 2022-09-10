@@ -26,10 +26,7 @@ div2.classList.add("item")
 const p1=document.createElement("p")
 div2.appendChild(p1)
 p1.textContent="Predict!"
-
-p1.addEventListener("click",()=>{
-    console.log("hi")
-    const div3=document.createElement("div")
+const div3=document.createElement("div")
 container.appendChild(div3)
     const Pgendre=document.createElement("p")
     div3.appendChild(Pgendre)
@@ -41,6 +38,10 @@ container.appendChild(div3)
     container.appendChild(div4)
     const Pnatio=document.createElement("p")
     div4.appendChild(Pnatio)
+
+p1.addEventListener("click",()=>{
+    
+   
 
     const val=inp.value
     
