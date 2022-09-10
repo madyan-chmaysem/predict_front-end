@@ -1,0 +1,35 @@
+body {
+    background-color: palevioletred;
+    text-align: center;
+}
+.imagecontainer{
+    
+    
+    justify-content: center;
+
+    
+  
+}
+img{
+    width: 40vw;
+    height: 30vh;
+
+}
+
+
+
+main-container {
+    padding: 5% 10%;
+}
+
+
+
+.center{
+   
+      justify-content: center;
+    
+     
+}
+
+
+
