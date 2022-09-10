@@ -15,6 +15,9 @@ img{
     height: 30vh;
 
 }
+.flex{
+    display: flex;
+}
 p {
     padding: 20px 0;
     
@@ -23,12 +26,18 @@ p {
     
   
 }
+
+
+
+
+
 .center{
    
-    justify-content: center;
-  
-   
+      justify-content: center;
+    
+     
 }
+
 input{
  
     display: block;
@@ -42,6 +51,7 @@ input{
 
 
 }
+
 .item {
     width: 30vw;
     height: 7vh;
@@ -51,20 +61,13 @@ input{
     margin-left: auto;
     margin-right: auto;
 }
-
-
-main-container {
-    padding: 5% 10%;
-}
-
-
-
-.center{
-   
-      justify-content: center;
+@media screen   and (min-width: 480px) {
+    img{
+        width: 80vh;
+        height: 30vh;
+        
+    }
     
-     
+    
 }
-
-
 
