@@ -15,7 +15,42 @@ img{
     height: 30vh;
 
 }
+p {
+    padding: 20px 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+}
+.center{
+   
+    justify-content: center;
+  
+   
+}
+input{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    height: 7vh;
+    margin-bottom: 2vh;
+    background-color: yellowgreen;
 
+
+
+}
+.item {
+    width: 30vw;
+    height: 7vh;
+    margin:5px;
+    background:rgb(12, 185, 56);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 main-container {
