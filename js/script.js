@@ -5,7 +5,13 @@ const img=document.createElement("img")
 div.appendChild(img)
 div.classList.add("imagecontainer")
 img.classList.add("center")
-img.src ="./images/download.jpg"
+fetch("https://dog.ceo/api/breeds/image/random")
+.then(res=>res.json())
+.then(data=>{ 
+    img.src =data.message
+
+})
+
 const div1 = document.createElement('div');
 container.appendChild(div1)
 const p=document.createElement("p")
