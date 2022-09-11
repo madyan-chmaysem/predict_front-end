@@ -1,5 +1,5 @@
 body {
-    background-color: palevioletred;
+    background-color :#3a6b35;
     text-align: center;
 }
 .imagecontainer{
@@ -10,17 +10,27 @@ body {
     
   
 }
+button{
+ align-content: center;
+}
 img{
     width: 40vw;
     height: 30vh;
 
 }
-
-
-
-main-container {
-    padding: 5% 10%;
+.flex{
+    display: flex;
 }
+p {
+   padding-top: 1vh;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+}
+
+
 
 
 
@@ -31,5 +41,36 @@ main-container {
      
 }
 
+input{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    height: 7vh;
+    margin-bottom: 2vh;
+    background-color: #cbd18f;
 
+
+
+}
+
+.item {
+    width: 30vw;
+    height: 7vh;
+    margin:5px;
+    background:#e3b448;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen   and (min-width: 480px) {
+    img{
+        width: 80vh;
+        height: 30vh;
+        
+    }
+    
+    
+}
 
