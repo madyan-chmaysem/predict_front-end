@@ -1,5 +1,5 @@
 body {
-    background-color: palevioletred;
+    background-color :#3a6b35;
     text-align: center;
 }
 .imagecontainer{
@@ -10,6 +10,9 @@ body {
     
   
 }
+button{
+ align-content: center;
+}
 img{
     width: 40vw;
     height: 30vh;
@@ -19,8 +22,8 @@ img{
     display: flex;
 }
 p {
-    padding: 20px 0;
-    
+   padding-top: 1vh;
+    font-size: 32px;
     margin-left: auto;
     margin-right: auto;
     
@@ -46,7 +49,7 @@ input{
     width: 30vw;
     height: 7vh;
     margin-bottom: 2vh;
-    background-color: yellowgreen;
+    background-color: #cbd18f;
 
 
 
@@ -56,7 +59,7 @@ input{
     width: 30vw;
     height: 7vh;
     margin:5px;
-    background:rgb(12, 185, 56);
+    background:#e3b448;
     display: block;
     margin-left: auto;
     margin-right: auto;
